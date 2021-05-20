@@ -13,7 +13,7 @@ The edgelists used to build this network come from: https://snap.stanford.edu/da
 3. Adjusted rand score to compare the results of the two community detection algorithms 
 
 # Findings
-- There is a accuracy/efficiency tradeoff when using the two community detection algorithms. Girvan-Newman more accurately identifed communities in the Facebook network, but it is computationally very expensive, taking nearly 5 hours to process Node 107! On the other hand, node2vec processed Node 107 in seconds, but had a lower rand score. The table summarizes the rand score of each community detection method when compared with the ground truth labels of the social circles. 
+There is a accuracy/efficiency tradeoff when using the two community detection algorithms. Girvan-Newman more accurately identifed communities in the Facebook network, but it was computationally very expensive, taking nearly 5 hours to process Node 107! On the other hand, node2vec processed Node 107 in seconds, but had a lower rand score. The table summarizes the rand score of each community detection method when compared with the ground truth labels of the social circles. 
 
 | Node     | Girvan-Newman Community Detection | node2vec + Kmeans |
 |----------|---------------------|--------|
