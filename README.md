@@ -2,7 +2,7 @@
 Analyzing and visualizing a user's Facebook network using NetworkX and community detection methods
 
 # Introduction
-In this project, I built a network analysis platform using NetworkX to analyze and visualize the Facebook network of an individual. For a given network, the platform returns local and global summaries, visualizations of the distributions of several features, and a force-directed layout of the network color-coded by identified communities.  
+In this project, I built a network analysis platform using NetworkX to analyze and visualize the Facebook network of an individual. For a given network, the platform returns local and global summaries, visualizations of the distributions of several features, and a graph of the network color-coded by the identified communities.  
 
 ![alt text](https://github.com/amtan20/FacebookNetworkAnalysis/blob/main/GN_Community_Detection.png)
 
